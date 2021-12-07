@@ -6,7 +6,7 @@ void main(void)
 {
 	int test_var = 0;
 
-	test_var = 2*flash_read();
+	test_var = 4*flash_read();
 
 	printf("Hello! Test Var = %d \n", test_var);
 
