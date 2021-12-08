@@ -1,7 +1,17 @@
-#include "flash_mem_sim.h"
+#include <stdint.h>
 #include "flash_mem_sim.h"
 
-int flash_read(void)
+void TEST_FLASH_EraseSector(uint32_t SectorAddr)
 {
-	return 2;
+
+}
+
+void TEST_FLASH_WriteBuffer(uint8_t* pBuffer, uint32_t WriteAddr, uint16_t NumByteToWrite)
+{
+
+}
+
+void TEST_FLASH_ReadBuffer(uint8_t* pBuffer, uint32_t ReadAddr, uint16_t NumByteToRead)
+{
+
 }
