@@ -5,4 +5,4 @@ This is a simple program to simulate the workings of READ, WRITE and ERASE comma
 
 Currently the program supports a memory table of up to 64KB, which would be 1 Bock of the memory chip. Each block has 16 Sectors of 4KB.
 
-In order to visualize the operations to memory, it is useful to use a smaller memory table.
+In order to better visualize the operations to memory, it is useful to use a smaller memory table.
