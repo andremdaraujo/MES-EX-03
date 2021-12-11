@@ -1,8 +1,8 @@
 #ifndef FLASH_MEM_SIM_H
 #define FLASH_MEM_SIM_H
 
-#define MEM_ROWS	256	// Rows in the memory table
-#define MEM_COLS	 16	// Columns in the memory table
+#define MEM_ROWS	32U	// Rows in the memory table
+#define MEM_COLS	16U	// Columns in the memory table
 
 #define MEM_SIZE	 (MEM_ROWS * MEM_COLS)	// Memory size in Bytes
 #define SECTOR_SIZE	 (MEM_SIZE / 16)		// Sector size in Bytes
