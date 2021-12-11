@@ -16,3 +16,13 @@ Afterwards, the WRITE test is done. A test buffer to be written to memory is loa
 Finally, the ERASE test is made. This function erases a whole sector by placing zeroes on each address of that sector. Once more, the program scans the file and prints to the console.
 
 This version is not comprehensive, but these 3 functions worked fine for several conditions. There’s even a test to check if the Bytes to read exceed the memory addresses, avoiding reading garbage data.
+
+Screenshots of the program running:
+
+![alt text for screen readers](/SCREENSHOTS/00.png "Memory Table Initialization")
+
+![alt text for screen readers](/SCREENSHOTS/01.png "Read Test")
+
+![alt text for screen readers](/SCREENSHOTS/02.png "Write Test")
+
+![alt text for screen readers](/SCREENSHOTS/03.png "Erase Sector Test")
